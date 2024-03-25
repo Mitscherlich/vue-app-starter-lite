@@ -14,7 +14,7 @@ based on [`vitesse`](https://github.com/antfu/vitesse) and [`vitesse-lite`](http
 1. clone this repo
 2. search and replace `my-awesome-app` with your app name
 3. run `pnpm install`
-4. run `pnpm dev` for local development
+4. run `pnpm dev` for development
 5. run `pnpm build` for production
 
 ## License
