@@ -1,5 +1,5 @@
-import type { Plugin, PluginContext } from './types'
 import App from './App.vue'
+import type { Plugin, PluginContext } from './types'
 
 import '@unocss/reset/tailwind.css'
 import './styles/main.css'

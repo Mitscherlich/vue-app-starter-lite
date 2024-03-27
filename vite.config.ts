@@ -18,7 +18,7 @@ export default defineConfig({
     VueMacros({
       plugins: {
         vue: Vue({
-          include: [/\.vue$/, /\.md$/],
+          include: [/\.vue$/],
         }),
       },
     }),
@@ -27,7 +27,6 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
-        'vue-i18n',
         '@vueuse/head',
         '@vueuse/core',
       ],
@@ -42,9 +41,9 @@ export default defineConfig({
     // https://github.com/antfu/unplugin-vue-components
     Components({
       // allow auto load markdown components under `./src/components/`
-      extensions: ['vue', 'md'],
+      extensions: ['vue'],
       // allow auto import and register components used in markdown
-      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      include: [/\.vue$/, /\.vue\?vue/],
       dts: 'src/components.d.ts',
     }),
 

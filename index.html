@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>my-awesome-app</title>
+    <meta name="description" content="Opinionated Vite Starter Template" />
     <!-- eslint-disable -->
-    <script>!function(){const e=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,t=localStorage.getItem("vueuse-color-scheme")||"auto";("dark"===t||e&&"light"!==t)&&document.documentElement.classList.toggle("dark",!0)}();</script>
+    <script>!function(){const e=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,t=localStorage.getItem("color-schema")||"auto";("dark"===t||e&&"light"!==t)&&document.documentElement.classList.toggle("dark",!0)}();</script>
   </head>
-  <body class="font-sans">
+  <body class="font-sans dark:text-white dark:bg-hex-121212">
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
     <noscript>
-      This website requires JavaScript to function properly. Please enable
-      JavaScript to continue.
+      <div>Please enable JavaScript to use this application.</div>
     </noscript>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

@@ -16,11 +16,8 @@
       "~/*": ["src/*"]
     },
     "types": [
-      "vitest",
       "vite/client",
-      "vite-plugin-vue-layouts/client",
-      "unplugin-vue-macros/macros-global",
-      "unplugin-vue-router/client"
+      "unplugin-vue-macros/macros-global"
     ]
   },
   "vueCompilerOptions": {

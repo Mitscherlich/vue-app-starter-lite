@@ -18,16 +18,17 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.1.31",
     "@m9ch/eslint-config-all": "^0.3.2",
     "@types/node": "^20.11.30",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8.57.0",
     "taze": "^0.13.3",
-    "unocss": "^0.58.6",
+    "unocss": "^0.58.7",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
     "unplugin-vue-macros": "^2.7.13",
     "vite": "^5.2.6",
-    "vite-plugin-vue-devtools": "^7.0.20"
+    "vite-plugin-vue-devtools": "^7.0.23"
   }
 }
