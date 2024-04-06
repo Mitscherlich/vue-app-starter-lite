@@ -22,7 +22,7 @@
     "@m9ch/eslint-config-all": "^0.3.2",
     "@types/node": "^20.11.30",
     "@vitejs/plugin-vue": "^5.0.4",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "taze": "^0.13.3",
     "unocss": "^0.59.0",
     "unplugin-auto-import": "^0.17.5",
