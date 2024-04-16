@@ -44,7 +44,7 @@ importers:
         version: 9.0.0
       taze:
         specifier: ^0.13.3
-        version: 0.13.5
+        version: 0.13.6
       unocss:
         specifier: ^0.59.0
         version: 0.59.3(postcss@8.4.38)(rollup@4.14.3)(vite@5.2.9(@types/node@20.12.7))
@@ -2460,8 +2460,8 @@ packages:
     resolution: {integrity: sha512-Vhf+bUa//YSTYKseDiiEuQmhGCoIF3CVBhunm3r/DQnYiGT4JssmnKQc44BIyOZRK2pKjXXAgbhfmbeoC9CJpA==}
     engines: {node: '>=12.20'}
 
-  taze@0.13.5:
-    resolution: {integrity: sha512-rqMiPMc20n2vJnWpFTCa9fkbRHl6NCUwk4g8Co+7TynpOgKP48bVkEBSQkUf7konzzF2Li5l94jruzZ8gHKnhA==}
+  taze@0.13.6:
+    resolution: {integrity: sha512-u07uNpetujo56QQs5cNRafPDuSZYInbm+JvPaxQcZTzolMMombCQiaSvvbm6vNXpTCqU+gGRXcLYYSmSMIwt8Q==}
     hasBin: true
 
   text-table@0.2.0:
@@ -5574,7 +5574,7 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  taze@0.13.5:
+  taze@0.13.6:
     dependencies:
       '@antfu/ni': 0.21.12
       cli-progress: 3.12.0
@@ -5583,7 +5583,6 @@ snapshots:
       execa: 8.0.1
       picocolors: 1.0.0
       prompts: 2.4.2
-      semver: 7.6.0
       ufo: 1.5.3
       unconfig: 0.3.13
       yargs: 17.7.2
