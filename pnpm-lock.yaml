@@ -29,7 +29,7 @@ importers:
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.1.31
-        version: 1.1.32
+        version: 1.1.33
       '@m9ch/eslint-config-all':
         specifier: ^0.3.2
         version: 0.3.2(eslint@9.2.0)(typescript@5.4.5)
@@ -484,8 +484,8 @@ packages:
     resolution: {integrity: sha512-Ttl/jHpxfS3st5sxwICYfk4pOH0WrLI1SpW283GgQL7sCWU7EHIOhX4b4fkIxr3tkfzwg8+FNojtzsIEE7Ecgg==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/carbon@1.1.32':
-    resolution: {integrity: sha512-9X8wVI7AmcnjTyOdDoCgyNwcFL9lb++nacDS2yLANTc27F4y9Q8pJIfUVsakR4KcGqSSBCyXwEmBDeopeTZFqA==}
+  '@iconify-json/carbon@1.1.33':
+    resolution: {integrity: sha512-TsjyOqhqMhIEdUnteGPMoKvbY1SIsM8A4sASHIg+YiKoDGWqlwD/g4pLXoAoVj3NL3E1hRxoTIY1oqpndXIxvg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3322,7 +3322,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.2.4': {}
 
-  '@iconify-json/carbon@1.1.32':
+  '@iconify-json/carbon@1.1.33':
     dependencies:
       '@iconify/types': 2.0.0
 
