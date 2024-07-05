@@ -13,7 +13,7 @@ importers:
         version: 1.9.15(vue@3.4.31(typescript@5.4.5))
       '@unocss/reset':
         specifier: ^0.61.0
-        version: 0.61.0
+        version: 0.61.2
       '@vueuse/core':
         specifier: ^10.9.0
         version: 10.11.0(vue@3.4.31(typescript@5.4.5))
@@ -894,6 +894,9 @@ packages:
 
   '@unocss/reset@0.61.0':
     resolution: {integrity: sha512-VqemtmzH8Rgu5yNomtv50gIcy4KZ2x1aP+7WZCds9x5ZdTSEjbfCOgUDI9rDrrGSipJkCmJ1yOhUPMC7ND6Hfw==}
+
+  '@unocss/reset@0.61.2':
+    resolution: {integrity: sha512-fPRvcoYNAzh+1gL3r2MN+5GgpiH4AatVaPbWZ11VNfTllVUlnCYIyVC7/xk3f6tRlCnXfqGFP8huZ1rzNTviZA==}
 
   '@unocss/rule-utils@0.61.0':
     resolution: {integrity: sha512-MCdmfhE6Q9HSWjWqi2sx5/nnKyOEhfhoo+pVumHIqkHQICQ/LuKioFf7Y7e5ycqjFE/7dC2hKGZJ8WTMGIOMwA==}
@@ -3876,6 +3879,8 @@ snapshots:
       '@unocss/rule-utils': 0.61.0
 
   '@unocss/reset@0.61.0': {}
+
+  '@unocss/reset@0.61.2': {}
 
   '@unocss/rule-utils@0.61.0':
     dependencies:
