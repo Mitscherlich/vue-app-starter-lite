@@ -43,8 +43,8 @@ importers:
         specifier: ^9.0.0
         version: 9.7.0
       taze:
-        specifier: ^0.15.0
-        version: 0.15.2
+        specifier: ^0.16.0
+        version: 0.16.1
       unocss:
         specifier: ^0.61.0
         version: 0.61.5(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.4(@types/node@20.14.11))
@@ -2734,11 +2734,6 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -2899,8 +2894,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  taze@0.15.2:
-    resolution: {integrity: sha512-Zeq/67Wv1FTrismdEANsk7vu6vDm/2GHfZvxYdLDULqTy2tQNOCTbfd4c+kGW+R5XTLUR/0xSJTPl3xQgsr6HA==}
+  taze@0.16.1:
+    resolution: {integrity: sha512-YolslEZ6KwFBpFbzdxe9JtKz3kypN2dHEPQv7Wpoq72koO9vaPUk4H6SP1kWHpLRmFI2badf24pJcgZWCgsBjA==}
     hasBin: true
 
   text-table@0.2.0:
@@ -6124,7 +6119,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       proc-log: 4.2.0
-      semver: 7.6.2
+      semver: 7.6.3
       validate-npm-package-name: 5.0.1
 
   npm-registry-fetch@17.1.0:
@@ -6427,8 +6422,6 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.6.2: {}
-
   semver@7.6.3: {}
 
   set-function-length@1.2.2:
@@ -6597,7 +6590,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  taze@0.15.2:
+  taze@0.16.1:
     dependencies:
       '@antfu/ni': 0.22.0
       '@jsdevtools/ez-spawn': 3.0.4
