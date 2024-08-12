@@ -44,7 +44,7 @@ importers:
         version: 9.9.0(jiti@1.21.6)
       taze:
         specifier: ^0.16.0
-        version: 0.16.3
+        version: 0.16.4
       unocss:
         specifier: ^0.62.0
         version: 0.62.1(postcss@8.4.41)(rollup@4.20.0)(vite@5.4.0(@types/node@20.14.15))
@@ -2915,8 +2915,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  taze@0.16.3:
-    resolution: {integrity: sha512-1hZ1zZiJWOzWa1QogaPiqaFsME5IkCgHEpNQhIHWH45SNuTvlEw8M2kEoQOTmNjbLtchbGDMKamJAGR8oiMP0g==}
+  taze@0.16.4:
+    resolution: {integrity: sha512-bBETgcOOkgYb8tE2agde/WCUmHgvlfpKGV6LAxdq+8txqm1egVzIiEDb+sStYPN/D9X4WuJ3gTZwnMigJpPq8g==}
     hasBin: true
 
   text-table@0.2.0:
@@ -6562,7 +6562,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  taze@0.16.3:
+  taze@0.16.4:
     dependencies:
       '@antfu/ni': 0.22.1
       '@jsdevtools/ez-spawn': 3.0.4
