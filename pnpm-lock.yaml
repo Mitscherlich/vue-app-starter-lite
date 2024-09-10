@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@unhead/vue':
         specifier: ^1.9.1
-        version: 1.11.1(vue@3.5.4(typescript@5.5.4))
+        version: 1.11.2(vue@3.5.4(typescript@5.5.4))
       '@unocss/reset':
         specifier: ^0.62.0
         version: 0.62.3
@@ -819,17 +819,26 @@ packages:
   '@unhead/dom@1.11.1':
     resolution: {integrity: sha512-lyqegiA35OzcvsaP9gQpAPWv5LmZpP9D/55xkFVTnaXfd1kl1TCxBkioAzv3lxtaYsu6CLSqH/jRxO+fB3Q2kQ==}
 
+  '@unhead/dom@1.11.2':
+    resolution: {integrity: sha512-e5Ilqa1ktwGJGhFt3jEI78LywNuvqOR4GdEa+sV2OuKbldWBoS8DosCf7jzwEIPYgn2ubDQ0ygn9JH+m/x88gA==}
+
   '@unhead/schema@1.11.1':
     resolution: {integrity: sha512-oEl5vV3+zZyY1Y3PVE1+gWNMj2wJczP6w0gscp8RnFRSik9p94XqYzBnzeb0tezIyVJWKWycGne9ocV0uGHbzw==}
+
+  '@unhead/schema@1.11.2':
+    resolution: {integrity: sha512-ALyIIA0084JjGQJD6tJetQdqVNw/V6d2LaCC06jSm+JUqxsRWRZcSbNZUg5xr0T4xQPrefZYrGp76PbOdotPbQ==}
 
   '@unhead/shared@1.11.1':
     resolution: {integrity: sha512-05hd92qxAwkndMU8Ftklf4/97GuRVYHM0XzMz3ioENxJl8NfFGAyV48H/idt8WFv8JIkY9d7KgJDBmxG+CHi9Q==}
 
+  '@unhead/shared@1.11.2':
+    resolution: {integrity: sha512-Zg56xBrqkr9f9m3/+G/2CzbLba6g3/M2myWmyuZtn/ncUk3K2IXvXvlZAzMHx4yO++Xeik2QUWpHEdXRh+PxAA==}
+
   '@unhead/ssr@1.11.1':
     resolution: {integrity: sha512-rol3eGQZOvkKAsx604rZCM3uiBXNfro5V73kQKWq4kv6GNEifzY1r54Fqj1cOk6AMVYpNqowmDcvBwBC/rqXZw==}
 
-  '@unhead/vue@1.11.1':
-    resolution: {integrity: sha512-MSeFsRr0Pco96bjoY8bijV5su+xw7joqv1LUJQxcDVIp51M1cfrutzMIBTGne30/0K43aIvshCGbmyuW8jouxw==}
+  '@unhead/vue@1.11.2':
+    resolution: {integrity: sha512-m4GnwOd1ltXiSxp4ahIT6lziVyg6dgqKyLyWxrRWuPjZ8nXsPcpIOCjVwYB1MK0UBKMuIlgeuzVeDrTY9+APbA==}
     peerDependencies:
       vue: '>=2.7 || >=3'
 
@@ -2969,8 +2978,8 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
-  unhead@1.11.1:
-    resolution: {integrity: sha512-2BqoGPtor6eR427J2m6+Qhxwpi+6Uea0Dok+gGn8v+LOzOxQG/fNR6m7qw+7a0uB2PlR3ImvoAvWQ/LiNevymg==}
+  unhead@1.11.2:
+    resolution: {integrity: sha512-k/MA5yzPh5M4pksDzOXf2GBJn0XV4quWao1q173NF7NL3Ji4RQ3ZxvZcwA/nGr7wu3+twJIRoKti3Otc4JMNyw==}
 
   unimport@3.11.1:
     resolution: {integrity: sha512-DuB1Uoq01LrrXTScxnwOoMSlTXxyKcULguFxbLrMDFcE/CO0ZWHpEiyhovN0mycPt7K6luAHe8laqvwvuoeUPg==}
@@ -3983,7 +3992,17 @@ snapshots:
       '@unhead/schema': 1.11.1
       '@unhead/shared': 1.11.1
 
+  '@unhead/dom@1.11.2':
+    dependencies:
+      '@unhead/schema': 1.11.2
+      '@unhead/shared': 1.11.2
+
   '@unhead/schema@1.11.1':
+    dependencies:
+      hookable: 5.5.3
+      zhead: 2.2.4
+
+  '@unhead/schema@1.11.2':
     dependencies:
       hookable: 5.5.3
       zhead: 2.2.4
@@ -3992,18 +4011,22 @@ snapshots:
     dependencies:
       '@unhead/schema': 1.11.1
 
+  '@unhead/shared@1.11.2':
+    dependencies:
+      '@unhead/schema': 1.11.2
+
   '@unhead/ssr@1.11.1':
     dependencies:
       '@unhead/schema': 1.11.1
       '@unhead/shared': 1.11.1
 
-  '@unhead/vue@1.11.1(vue@3.5.4(typescript@5.5.4))':
+  '@unhead/vue@1.11.2(vue@3.5.4(typescript@5.5.4))':
     dependencies:
-      '@unhead/schema': 1.11.1
-      '@unhead/shared': 1.11.1
+      '@unhead/schema': 1.11.2
+      '@unhead/shared': 1.11.2
       defu: 6.1.4
       hookable: 5.5.3
-      unhead: 1.11.1
+      unhead: 1.11.2
       vue: 3.5.4(typescript@5.5.4)
 
   '@unocss/astro@0.62.3(rollup@4.21.2)(vite@5.4.3(@types/node@20.16.5))':
@@ -4616,7 +4639,7 @@ snapshots:
       '@unhead/dom': 1.11.1
       '@unhead/schema': 1.11.1
       '@unhead/ssr': 1.11.1
-      '@unhead/vue': 1.11.1(vue@3.5.4(typescript@5.5.4))
+      '@unhead/vue': 1.11.2(vue@3.5.4(typescript@5.5.4))
       vue: 3.5.4(typescript@5.5.4)
 
   '@vueuse/metadata@11.0.3': {}
@@ -6624,11 +6647,11 @@ snapshots:
 
   undici-types@6.19.8: {}
 
-  unhead@1.11.1:
+  unhead@1.11.2:
     dependencies:
-      '@unhead/dom': 1.11.1
-      '@unhead/schema': 1.11.1
-      '@unhead/shared': 1.11.1
+      '@unhead/dom': 1.11.2
+      '@unhead/schema': 1.11.2
+      '@unhead/shared': 1.11.2
       hookable: 5.5.3
 
   unimport@3.11.1(rollup@4.21.2):
