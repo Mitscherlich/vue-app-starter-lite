@@ -62,7 +62,7 @@ importers:
         version: 5.4.7(@types/node@20.16.6)
       vite-plugin-vue-devtools:
         specifier: ^7.0.23
-        version: 7.4.5(rollup@4.22.4)(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))
+        version: 7.4.6(rollup@4.22.4)(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))
 
 packages:
 
@@ -616,6 +616,15 @@ packages:
       rollup:
         optional: true
 
+  '@rollup/pluginutils@5.1.2':
+    resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
   '@rollup/rollup-android-arm-eabi@4.22.4':
     resolution: {integrity: sha512-Fxamp4aEZnfPOcGA8KSNEohV8hX7zVHOemC8jVBoBUHu5zpJK/Eu3uJwt6BMgy9fkvzxDaurgj96F/NiLukF2w==}
     cpu: [arm]
@@ -1090,16 +1099,16 @@ packages:
   '@vue/devtools-api@6.6.4':
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
-  '@vue/devtools-core@7.4.5':
-    resolution: {integrity: sha512-QwrgKYxwafJUJrKRvJGbzQLuGt0BC1P4qTr4qlEKgOOs+GV0n6zTry2oeHiwmj5H6pOkLoHnwFMOTB9rFtn9QQ==}
+  '@vue/devtools-core@7.4.6':
+    resolution: {integrity: sha512-7ATNPEbVqThOOAp2bg/YUIm9MqqgimbSk24D05hdXUp89JlXX12aTzdrWd9xZRwS78hDR+wCToHl1C/8sopBrg==}
     peerDependencies:
       vue: ^3.0.0
 
-  '@vue/devtools-kit@7.4.5':
-    resolution: {integrity: sha512-Uuki4Z6Bc/ExvtlPkeDNGSAe4580R+HPcVABfTE9TF7BTz3Nntk7vxIRUyWblZkUEcB/x+wn2uofyt5i2LaUew==}
+  '@vue/devtools-kit@7.4.6':
+    resolution: {integrity: sha512-NbYBwPWgEic1AOd9bWExz9weBzFdjiIfov0yRn4DrRfR+EQJCI9dn4I0XS7IxYGdkmUJi8mFW42LLk18WsGqew==}
 
-  '@vue/devtools-shared@7.4.5':
-    resolution: {integrity: sha512-2XgUOkL/7QDmyYI9J7cm+rz/qBhcGv+W5+i1fhwdQ0HQ1RowhdK66F0QBuJSz/5k12opJY8eN6m03/XZMs7imQ==}
+  '@vue/devtools-shared@7.4.6':
+    resolution: {integrity: sha512-rPeSBzElnHYMB05Cc056BQiJpgocQjY8XVulgni+O9a9Gr9tNXgPteSzFFD+fT/iWMxNuUgGKs9CuW5DZewfIg==}
 
   '@vue/language-core@2.1.6':
     resolution: {integrity: sha512-MW569cSky9R/ooKMh6xa2g1D0AtRKbL56k83dzus/bx//RDJk24RHWkMzbAlXjMdDNyxAaagKPRquBIxkxlCkg==}
@@ -1269,8 +1278,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001662:
-    resolution: {integrity: sha512-sgMUVwLmGseH8ZIrm1d51UbrhqMCH3jvS7gF/M6byuHOnKyLOBL7W8yz5V02OHwgLGA36o/AFhWzzh4uc5aqTA==}
+  caniuse-lite@1.0.30001663:
+    resolution: {integrity: sha512-o9C3X27GLKbLeTYZ6HBOLU1tsAcBZsLis28wrVzddShCS16RujjHp9GDHKZqrB3meE0YjhawvMFsGb/igqiPzA==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -2842,8 +2851,8 @@ packages:
       '@nuxt/kit':
         optional: true
 
-  vite-plugin-vue-devtools@7.4.5:
-    resolution: {integrity: sha512-8D9Dv7uw620r96uI45M7hCyfsBA9KwttdmxA/DAd0/1KpuGmrFEhNwo4ob/sjaou1noAeK2TrnKdW+sFMR6aKQ==}
+  vite-plugin-vue-devtools@7.4.6:
+    resolution: {integrity: sha512-lOKur3qovCB3BQStL0qfHEoIusqya1ngfxfWuqn9DTa6h9rlw6+S3PV4geOP5YBGYQ4NW1hRX70OD8I+sYr1dA==}
     engines: {node: '>=v14.21.3'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0-0 || ^5.0.0-0
@@ -3498,6 +3507,14 @@ snapshots:
   '@polka/url@1.0.0-next.28': {}
 
   '@rollup/pluginutils@5.1.1(rollup@4.22.4)':
+    dependencies:
+      '@types/estree': 1.0.6
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.22.4
+
+  '@rollup/pluginutils@5.1.2(rollup@4.22.4)':
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
@@ -4199,10 +4216,10 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/devtools-core@7.4.5(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))':
+  '@vue/devtools-core@7.4.6(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))':
     dependencies:
-      '@vue/devtools-kit': 7.4.5
-      '@vue/devtools-shared': 7.4.5
+      '@vue/devtools-kit': 7.4.6
+      '@vue/devtools-shared': 7.4.6
       mitt: 3.0.1
       nanoid: 3.3.7
       pathe: 1.1.2
@@ -4211,9 +4228,9 @@ snapshots:
     transitivePeerDependencies:
       - vite
 
-  '@vue/devtools-kit@7.4.5':
+  '@vue/devtools-kit@7.4.6':
     dependencies:
-      '@vue/devtools-shared': 7.4.5
+      '@vue/devtools-shared': 7.4.6
       birpc: 0.2.17
       hookable: 5.5.3
       mitt: 3.0.1
@@ -4221,7 +4238,7 @@ snapshots:
       speakingurl: 14.0.1
       superjson: 2.2.1
 
-  '@vue/devtools-shared@7.4.5':
+  '@vue/devtools-shared@7.4.6':
     dependencies:
       rfdc: 1.4.1
 
@@ -4406,7 +4423,7 @@ snapshots:
 
   browserslist@4.23.3:
     dependencies:
-      caniuse-lite: 1.0.30001662
+      caniuse-lite: 1.0.30001663
       electron-to-chromium: 1.5.27
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
@@ -4438,7 +4455,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001662: {}
+  caniuse-lite@1.0.30001663: {}
 
   chalk@2.4.2:
     dependencies:
@@ -6223,7 +6240,7 @@ snapshots:
   vite-plugin-inspect@0.8.7(rollup@4.22.4)(vite@5.4.7(@types/node@20.16.6)):
     dependencies:
       '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.1(rollup@4.22.4)
+      '@rollup/pluginutils': 5.1.2(rollup@4.22.4)
       debug: 4.3.7
       error-stack-parser-es: 0.1.5
       fs-extra: 11.2.0
@@ -6236,11 +6253,11 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-vue-devtools@7.4.5(rollup@4.22.4)(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2)):
+  vite-plugin-vue-devtools@7.4.6(rollup@4.22.4)(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2)):
     dependencies:
-      '@vue/devtools-core': 7.4.5(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))
-      '@vue/devtools-kit': 7.4.5
-      '@vue/devtools-shared': 7.4.5
+      '@vue/devtools-core': 7.4.6(vite@5.4.7(@types/node@20.16.6))(vue@3.5.8(typescript@5.6.2))
+      '@vue/devtools-kit': 7.4.6
+      '@vue/devtools-shared': 7.4.6
       execa: 8.0.1
       sirv: 2.0.4
       vite: 5.4.7(@types/node@20.16.6)
