@@ -43,8 +43,8 @@ importers:
         specifier: ^9.0.0
         version: 9.11.1(jiti@1.21.6)
       taze:
-        specifier: ^0.16.0
-        version: 0.16.9
+        specifier: ^0.17.0
+        version: 0.17.1
       unocss:
         specifier: ^0.62.0
         version: 0.62.4(postcss@8.4.47)(rollup@4.22.4)(vite@5.4.8(@types/node@20.16.9))
@@ -2643,8 +2643,8 @@ packages:
     resolution: {integrity: sha512-Vhf+bUa//YSTYKseDiiEuQmhGCoIF3CVBhunm3r/DQnYiGT4JssmnKQc44BIyOZRK2pKjXXAgbhfmbeoC9CJpA==}
     engines: {node: '>=12.20'}
 
-  taze@0.16.9:
-    resolution: {integrity: sha512-5dROtuXIaP3HOHy7f2jTvnfHbHO8ubCoqfv1At3UOo7QB63y8oLNwpuj7w/4IdVY+lkzQSDV6f5L5Bhl3kq9QQ==}
+  taze@0.17.1:
+    resolution: {integrity: sha512-vFenS+LxRq2+g1C6XqJnbSYDLta48qJdeAmwIiACaWIeJ5wMZbzmAlDspgoZ4WtUp4aL9AaoWc50jvjNWfR+Fg==}
     hasBin: true
 
   text-table@0.2.0:
@@ -5959,7 +5959,7 @@ snapshots:
     dependencies:
       tslib: 2.7.0
 
-  taze@0.16.9:
+  taze@0.17.1:
     dependencies:
       '@antfu/ni': 0.23.0
       js-yaml: 4.1.0
