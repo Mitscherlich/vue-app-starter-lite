@@ -2981,8 +2981,8 @@ packages:
     resolution: {integrity: sha512-5liCNPuJW8dqh3+DM6uNM2EI3MLLpCKp/KY+9pB5M2S2SR2qvvDHhKgBOaTWEbZTAws3CXfB0rKTIolWKL05VQ==}
     engines: {node: '>=14.0.0'}
 
-  unplugin@2.1.0:
-    resolution: {integrity: sha512-us4j03/499KhbGP8BU7Hrzrgseo+KdfJYWcbcajCOqsAyb8Gk0Yn2kiUIcZISYCb1JFaZfIuG3b42HmguVOKCQ==}
+  unplugin@2.1.2:
+    resolution: {integrity: sha512-Q3LU0e4zxKfRko1wMV2HmP8lB9KWislY7hxXpxd+lGx0PRInE4vhMBVEZwpdVYHvtqzhSrzuIfErsob6bQfCzw==}
     engines: {node: '>=18.12.0'}
 
   update-browserslist-db@1.1.1:
@@ -6506,7 +6506,7 @@ snapshots:
       magic-string: 0.30.17
       picomatch: 4.0.2
       unimport: 3.14.5(rollup@4.29.1)
-      unplugin: 2.1.0
+      unplugin: 2.1.2
     optionalDependencies:
       '@vueuse/core': 12.2.0(typescript@5.7.2)
     transitivePeerDependencies:
@@ -6532,7 +6532,7 @@ snapshots:
       magic-string: 0.30.17
       minimatch: 9.0.5
       mlly: 1.7.3
-      unplugin: 2.1.0
+      unplugin: 2.1.2
       vue: 3.5.13(typescript@5.7.2)
     optionalDependencies:
       '@babel/parser': 7.26.3
@@ -6601,7 +6601,7 @@ snapshots:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
 
-  unplugin@2.1.0:
+  unplugin@2.1.2:
     dependencies:
       acorn: 8.14.0
       webpack-virtual-modules: 0.6.2
