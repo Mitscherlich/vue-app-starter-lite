@@ -21,7 +21,7 @@
     "@iconify-json/carbon": "^1.1.31",
     "@m9ch/eslint-config-all": "^0.3.2",
     "@types/node": "^22.0.0",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^6.0.0",
     "eslint": "^9.0.0",
     "taze": "^19.0.0",
     "unocss": "^66.0.0",
