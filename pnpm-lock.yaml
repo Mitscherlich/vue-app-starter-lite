@@ -44,7 +44,7 @@ importers:
         version: 9.38.0(jiti@2.6.1)
       taze:
         specifier: ^19.0.0
-        version: 19.8.1
+        version: 19.9.0
       unocss:
         specifier: ^66.0.0
         version: 66.5.4(postcss@8.5.6)(vite@7.1.12(@types/node@22.18.12)(jiti@2.6.1)(yaml@2.8.1))
@@ -2303,8 +2303,8 @@ packages:
     resolution: {integrity: sha512-gXah6aZrcUxjWg2zR2MwouP2eHlCBzdV4pygudehaKXSGW4v2AsRQUK+lwwXhii6KFZcunEnmSUoYp5CXibxtA==}
     engines: {node: '>= 0.4'}
 
-  ofetch@1.4.1:
-    resolution: {integrity: sha512-QZj2DfGplQAr2oj9KzceK9Hwz6Whxazmn85yYeVuS3u9XTMOGMRx0kO95MQ+vLsj/S/NwBDMMLU5hpxvI6Tklw==}
+  ofetch@1.5.0:
+    resolution: {integrity: sha512-A7llJ7eZyziA5xq9//3ZurA8OhFqtS99K5/V1sLBJ5j137CM/OAjlbA/TEJXBuOWwOfLqih+oH5U3ran4za1FQ==}
 
   ohash@2.0.11:
     resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
@@ -2661,8 +2661,8 @@ packages:
     resolution: {integrity: sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  taze@19.8.1:
-    resolution: {integrity: sha512-0VqUKZZQuF1WIhTNpvtePt5/P+mecJs/Wy80O2LilceN9z3mX28k/ku/wQhehGkHyHxPJz/vbYHIC6+dlPgdmQ==}
+  taze@19.9.0:
+    resolution: {integrity: sha512-tai3JKoCGHMPIHtuGHwT6z9vJaVgQ/Oj9MmvU05vah063Le9r7ONIv7ig6G2lrMNd87iWgfYARbSOYg4zaGJjQ==}
     hasBin: true
 
   tinyexec@1.0.1:
@@ -3844,7 +3844,7 @@ snapshots:
     dependencies:
       '@iconify/utils': 3.0.2
       '@unocss/core': 66.5.4
-      ofetch: 1.4.1
+      ofetch: 1.5.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3871,7 +3871,7 @@ snapshots:
   '@unocss/preset-web-fonts@66.5.4':
     dependencies:
       '@unocss/core': 66.5.4
-      ofetch: 1.4.1
+      ofetch: 1.5.0
 
   '@unocss/preset-wind3@66.5.4':
     dependencies:
@@ -5614,7 +5614,7 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.1.1
 
-  ofetch@1.4.1:
+  ofetch@1.5.0:
     dependencies:
       destr: 2.0.5
       node-fetch-native: 1.6.7
@@ -6037,12 +6037,12 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.2.9
 
-  taze@19.8.1:
+  taze@19.9.0:
     dependencies:
       '@antfu/ni': 27.0.1
       cac: 6.7.14
       find-up-simple: 1.0.1
-      ofetch: 1.4.1
+      ofetch: 1.5.0
       package-manager-detector: 1.5.0
       pathe: 2.0.3
       pnpm-workspace-yaml: 1.3.0
@@ -6050,6 +6050,7 @@ snapshots:
       tinyexec: 1.0.1
       tinyglobby: 0.2.15
       unconfig: 7.3.3
+      yaml: 2.8.1
 
   tinyexec@1.0.1: {}
 
