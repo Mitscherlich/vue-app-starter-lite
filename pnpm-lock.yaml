@@ -15,8 +15,8 @@ importers:
         specifier: ^66.0.0
         version: 66.6.0
       '@vueuse/core':
-        specifier: ^13.0.0
-        version: 13.9.0(vue@3.5.27(typescript@5.9.3))
+        specifier: ^14.0.0
+        version: 14.2.1(vue@3.5.27(typescript@5.9.3))
       '@vueuse/head':
         specifier: ^2.0.0
         version: 2.0.0(vue@3.5.27(typescript@5.9.3))
@@ -50,13 +50,13 @@ importers:
         version: 66.6.0(postcss@8.5.6)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2))
       unplugin-auto-import:
         specifier: ^19.0.0
-        version: 19.3.0(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3)))
+        version: 19.3.0(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3)))
       unplugin-vue-components:
         specifier: ^30.0.0
         version: 30.0.0(@babel/parser@7.29.0)(vue@3.5.27(typescript@5.9.3))
       unplugin-vue-macros:
         specifier: ^2.7.13
-        version: 2.14.5(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3)))(esbuild@0.27.3)(rollup@4.57.1)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3))
+        version: 2.14.5(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3)))(esbuild@0.27.3)(rollup@4.57.1)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3))
       vite:
         specifier: ^7.0.0
         version: 7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2)
@@ -1165,8 +1165,8 @@ packages:
   '@vue/shared@3.5.27':
     resolution: {integrity: sha512-dXr/3CgqXsJkZ0n9F3I4elY8wM9jMJpP3pvRG52r6m0tu/MsAFIe6JpXVGeNMd/D9F4hQynWT8Rfuj0bdm9kFQ==}
 
-  '@vueuse/core@13.9.0':
-    resolution: {integrity: sha512-ts3regBQyURfCE2BcytLqzm8+MmLlo5Ln/KLoxDVcsZ2gzIwVNnQpQOL/UKV8alUqjSZOlpFZcRNsLRqj+OzyA==}
+  '@vueuse/core@14.2.1':
+    resolution: {integrity: sha512-3vwDzV+GDUNpdegRY6kzpLm4Igptq+GA0QkJ3W61Iv27YWwW/ufSlOfgQIpN6FZRMG0mkaz4gglJRtq5SeJyIQ==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -1175,11 +1175,11 @@ packages:
     peerDependencies:
       vue: '>=2.7 || >=3'
 
-  '@vueuse/metadata@13.9.0':
-    resolution: {integrity: sha512-1AFRvuiGphfF7yWixZa0KwjYH8ulyjDCC0aFgrGRz8+P4kvDFSdXLVfTk5xAN9wEuD1J6z4/myMoYbnHoX07zg==}
+  '@vueuse/metadata@14.2.1':
+    resolution: {integrity: sha512-1ButlVtj5Sb/HDtIy1HFr1VqCP4G6Ypqt5MAo0lCgjokrk2mvQKsK2uuy0vqu/Ks+sHfuHo0B9Y9jn9xKdjZsw==}
 
-  '@vueuse/shared@13.9.0':
-    resolution: {integrity: sha512-e89uuTLMh0U5cZ9iDpEI2senqPGfbPRTHM/0AaQkcxnpqjkZqDYP8rpfm7edOz8s+pOCOROEy1PIveSW8+fL5g==}
+  '@vueuse/shared@14.2.1':
+    resolution: {integrity: sha512-shTJncjV9JTI4oVNyF1FQonetYAiTBd+Qj7cY89SWbXSkx7gyhrgtEdF2ZAVWS1S3SHlaROO6F2IesJxQEkZBw==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -4029,13 +4029,13 @@ snapshots:
       unplugin: 1.16.1
       vue: 3.5.27(typescript@5.9.3)
 
-  '@vue-macros/define-models@1.3.5(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))':
+  '@vue-macros/define-models@1.3.5(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))':
     dependencies:
       '@vue-macros/common': 1.16.1(vue@3.5.27(typescript@5.9.3))
       ast-walker-scope: 0.6.2
       unplugin: 1.16.1
     optionalDependencies:
-      '@vueuse/core': 13.9.0(vue@3.5.27(typescript@5.9.3))
+      '@vueuse/core': 14.2.1(vue@3.5.27(typescript@5.9.3))
     transitivePeerDependencies:
       - vue
 
@@ -4349,11 +4349,11 @@ snapshots:
 
   '@vue/shared@3.5.27': {}
 
-  '@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3))':
+  '@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3))':
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 13.9.0
-      '@vueuse/shared': 13.9.0(vue@3.5.27(typescript@5.9.3))
+      '@vueuse/metadata': 14.2.1
+      '@vueuse/shared': 14.2.1(vue@3.5.27(typescript@5.9.3))
       vue: 3.5.27(typescript@5.9.3)
 
   '@vueuse/head@2.0.0(vue@3.5.27(typescript@5.9.3))':
@@ -4364,9 +4364,9 @@ snapshots:
       '@unhead/vue': 1.11.20(vue@3.5.27(typescript@5.9.3))
       vue: 3.5.27(typescript@5.9.3)
 
-  '@vueuse/metadata@13.9.0': {}
+  '@vueuse/metadata@14.2.1': {}
 
-  '@vueuse/shared@13.9.0(vue@3.5.27(typescript@5.9.3))':
+  '@vueuse/shared@14.2.1(vue@3.5.27(typescript@5.9.3))':
     dependencies:
       vue: 3.5.27(typescript@5.9.3)
 
@@ -6235,7 +6235,7 @@ snapshots:
       - postcss
       - supports-color
 
-  unplugin-auto-import@19.3.0(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3))):
+  unplugin-auto-import@19.3.0(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3))):
     dependencies:
       local-pkg: 1.1.2
       magic-string: 0.30.21
@@ -6244,7 +6244,7 @@ snapshots:
       unplugin: 2.3.11
       unplugin-utils: 0.2.5
     optionalDependencies:
-      '@vueuse/core': 13.9.0(vue@3.5.27(typescript@5.9.3))
+      '@vueuse/core': 14.2.1(vue@3.5.27(typescript@5.9.3))
 
   unplugin-combine@1.2.1(esbuild@0.27.3)(rollup@4.57.1)(unplugin@1.16.1)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2)):
     optionalDependencies:
@@ -6287,7 +6287,7 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  unplugin-vue-macros@2.14.5(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3)))(esbuild@0.27.3)(rollup@4.57.1)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3)):
+  unplugin-vue-macros@2.14.5(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3)))(esbuild@0.27.3)(rollup@4.57.1)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3)):
     dependencies:
       '@vue-macros/better-define': 1.11.4(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/boolean-prop': 0.5.5(vue@3.5.27(typescript@5.9.3))
@@ -6295,7 +6295,7 @@ snapshots:
       '@vue-macros/common': 1.16.1(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/config': 0.6.1(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/define-emit': 0.5.4(vue@3.5.27(typescript@5.9.3))
-      '@vue-macros/define-models': 1.3.5(@vueuse/core@13.9.0(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))
+      '@vue-macros/define-models': 1.3.5(@vueuse/core@14.2.1(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/define-prop': 0.6.5(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/define-props': 4.0.6(@vue-macros/reactivity-transform@1.1.6(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))
       '@vue-macros/define-props-refs': 1.3.5(vue@3.5.27(typescript@5.9.3))
