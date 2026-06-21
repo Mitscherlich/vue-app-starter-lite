@@ -49,8 +49,8 @@ importers:
         specifier: ^66.0.0
         version: 66.7.2(vite@7.3.5(@types/node@22.20.0)(jiti@2.7.0)(yaml@2.9.0))
       unplugin-auto-import:
-        specifier: ^19.0.0
-        version: 19.3.0(@vueuse/core@13.9.0(vue@3.5.38(typescript@6.0.3)))
+        specifier: ^21.0.0
+        version: 21.0.0(@vueuse/core@13.9.0(vue@3.5.38(typescript@6.0.3)))
       unplugin-vue-components:
         specifier: ^30.0.0
         version: 30.0.0(@babel/parser@7.29.7)(vue@3.5.38(typescript@6.0.3))
@@ -2954,8 +2954,8 @@ packages:
   unhead@2.1.15:
     resolution: {integrity: sha512-MCt5T90mCWyr3Z6pUCdM9lVRXoMoVBlL7z7U4CYVIiaDiuzad/UCfLuMqz5MeNmpZUgoBCQnrucJimU7EZR+XA==}
 
-  unimport@4.2.0:
-    resolution: {integrity: sha512-mYVtA0nmzrysnYnyb3ALMbByJ+Maosee2+WyE0puXl+Xm2bUwPorPaaeZt0ETfuroPOtG8jj1g/qeFZ6buFnag==}
+  unimport@5.7.0:
+    resolution: {integrity: sha512-njnL6sp8lEA8QQbZrt+52p/g4X0rw3bnGGmUcJnt1jeG8+iiqO779aGz0PirCtydAIVcuTBRlJ52F0u46z309Q==}
     engines: {node: '>=18.12.0'}
 
   unist-util-stringify-position@2.0.3:
@@ -2975,11 +2975,11 @@ packages:
       '@unocss/webpack':
         optional: true
 
-  unplugin-auto-import@19.3.0:
-    resolution: {integrity: sha512-iIi0u4Gq2uGkAOGqlPJOAMI8vocvjh1clGTfSK4SOrJKrt+tirrixo/FjgBwXQNNdS7ofcr7OxzmOb/RjWxeEQ==}
-    engines: {node: '>=14'}
+  unplugin-auto-import@21.0.0:
+    resolution: {integrity: sha512-vWuC8SwqJmxZFYwPojhOhOXDb5xFhNNcEVb9K/RFkyk/3VnfaOjzitWN7v+8DEKpMjSsY2AEGXNgt6I0yQrhRQ==}
+    engines: {node: '>=20.19.0'}
     peerDependencies:
-      '@nuxt/kit': ^3.2.2
+      '@nuxt/kit': ^4.0.0
       '@vueuse/core': '*'
     peerDependenciesMeta:
       '@nuxt/kit':
@@ -3013,10 +3013,6 @@ packages:
         optional: true
       webpack:
         optional: true
-
-  unplugin-utils@0.2.5:
-    resolution: {integrity: sha512-gwXJnPRewT4rT7sBi/IvxKTjsms7jX7QIDLOClApuZwR49SXbrB1z2NLUZ+vDHyqCj/n58OzRRqaW+B8OZi8vg==}
-    engines: {node: '>=18.12.0'}
 
   unplugin-utils@0.3.1:
     resolution: {integrity: sha512-5lWVjgi6vuHhJ526bI4nlCOmkCIF3nnfXkCMDeMJrtdvxTs6ZFCM8oNufGTsDbKv/tJ/xj8RpvXjRuPBZJuJog==}
@@ -6494,7 +6490,7 @@ snapshots:
     dependencies:
       hookable: 6.1.1
 
-  unimport@4.2.0:
+  unimport@5.7.0:
     dependencies:
       acorn: 8.17.0
       escape-string-regexp: 5.0.0
@@ -6509,7 +6505,7 @@ snapshots:
       strip-literal: 3.1.0
       tinyglobby: 0.2.17
       unplugin: 2.3.11
-      unplugin-utils: 0.2.5
+      unplugin-utils: 0.3.1
 
   unist-util-stringify-position@2.0.3:
     dependencies:
@@ -6537,14 +6533,14 @@ snapshots:
     transitivePeerDependencies:
       - vite
 
-  unplugin-auto-import@19.3.0(@vueuse/core@13.9.0(vue@3.5.38(typescript@6.0.3))):
+  unplugin-auto-import@21.0.0(@vueuse/core@13.9.0(vue@3.5.38(typescript@6.0.3))):
     dependencies:
       local-pkg: 1.2.1
       magic-string: 0.30.21
       picomatch: 4.0.4
-      unimport: 4.2.0
+      unimport: 5.7.0
       unplugin: 2.3.11
-      unplugin-utils: 0.2.5
+      unplugin-utils: 0.3.1
     optionalDependencies:
       '@vueuse/core': 13.9.0(vue@3.5.38(typescript@6.0.3))
 
@@ -6554,11 +6550,6 @@ snapshots:
       rollup: 4.62.2
       unplugin: 1.16.1
       vite: 7.3.5(@types/node@22.20.0)(jiti@2.7.0)(yaml@2.9.0)
-
-  unplugin-utils@0.2.5:
-    dependencies:
-      pathe: 2.0.3
-      picomatch: 4.0.4
 
   unplugin-utils@0.3.1:
     dependencies:
